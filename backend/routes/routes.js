@@ -9,9 +9,39 @@ const controller = require("../controllers/controllers.js");
 
 
 router.route("/allContracts").get(async (req, res) => {
+  const data = [{
+    code:"Nda",
+  name:"Confidencialidad",
+  price:500.00
+  },
+  {
+    code:"PowerLetter ",
+  name:"Carta poder ",
+  price:150.50
+  },
+  {
+    code:"TermSheet",
+  name:"Acuerdo de inversion",
+  price:70.60
+  },
+  {
+    code:"Leasing",
+  name:"Arrendamiento",
+  price:342.00
+  },
+  {
+    code:"Employment",
+  name:"Trabajo",
+  price:700.50
+  }]
   try {
-    let info = await Contract.findAll();
-    res.json(info); 
+    let info = Contract.findAll();
+ if(info.length === undefined){
+            data.map((e) => Contract.create(e))
+    }
+
+
+    res.json(await info); 
   } catch (e) {
     res.status(400).json({ error: "No information found" + e });
   }
