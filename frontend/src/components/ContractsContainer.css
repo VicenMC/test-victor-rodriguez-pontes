@@ -1,0 +1,323 @@
+.generalContainer{
+
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+
+.generalContainer div{
+	margin: 28.5px;
+	display: inline-block;
+vertical-align: middle;
+}
+
+.optionsContainer{
+height: 658px;
+width: 682px;
+border-radius: 20px;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.textContainer{
+	display: inline-block;
+	text-align: initial;
+	margin-left: 20vw;
+}
+
+.priceContainer{
+	background-color: #EEF7F9;
+	width: 399px;
+	height: 658px;
+	border-radius: 5%;
+}
+
+.priceContainer h3{
+	color: #193F76;
+	text-align: initial;
+	margin-left: 1.6vw;
+}
+
+.priceContainer .product{
+	width: 350px;
+	height: 10vh;
+	display: flex;
+	justify-content: space-between;
+	margin-top: -30px;
+	margin-bottom: -20px;
+}
+
+.priceContainer .product div{
+	margin-left: initial;
+}
+
+
+.priceContainer .product p{
+	font-size: 2vh;
+	display: inline;
+	margin-top: 1.6vw;
+	margin-left: 0.5vw;
+	}
+
+	.priceContainer .infoContainer{
+		margin-bottom: 0vh;
+		margin-top: -25px;
+		border-top: 1px solid lightgray;
+		display: grid;
+	}
+
+
+.priceContainer .infoContainer p{
+	display: flex;
+	margin-bottom: -5px;
+	font-size: 2vh;
+}
+
+.priceContainer .infoContainer .discount{
+	color: #193F76;
+}
+
+.priceContainer .infoContainer .total{
+		border-top: 1px solid lightgray;
+		padding-top: 5px;
+}
+
+.priceContainer .infoContainer a{
+	float: right;
+	margin-top: 2vh;
+	margin-right: -11.3vw;
+}
+
+.priceMarker{
+	margin-right: 0vw;
+}
+
+.optionsContainer div{
+	text-align: initial;
+	padding: 8px;
+		display: block;
+	border-radius: 5px;
+	margin-top: 30px;
+	border: 0.5px solid lightgray;
+}
+
+
+.optionsContainer div nav{
+	display: inline;
+	font-size: 2vh;
+}
+
+.optionsContainer div button{
+	border: none;
+	background-color: transparent;
+}
+
+.optionsContainer div p{
+	padding: 1px 4px;
+	border: 0.5px solid black;
+	border-radius: 5px;
+}
+
+.optionsContainer p{
+	display: inline;
+}
+
+.returnButton{
+	background-color: #65d5c8;
+	width: 180px;
+	height: 71px;
+	border: none;
+	border-radius: 10px 0px 0px 10px;
+}
+
+.returnButton:hover{
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 1366px) {
+.textContainer{
+	margin-left: 12vw;
+}
+
+.generalContainer{
+	margin-top: -8vh;
+}
+
+.optionsContainer{
+	max-width: 40vw;
+	max-height: 80vh;
+}
+
+.optionsContainer div nav{
+	font-size: 3vh;
+}
+
+.priceContainer{
+	max-height: 80vh;
+
+}
+
+.priceContainer .infoContainer p{
+	font-size: 3vh;
+}
+
+.priceContainer .infoContainer{
+	margin-top: 50px;
+}
+
+.priceContainer .product p{
+	font-size: 3vh;
+
+	}
+
+	.priceContainer .infoContainer a{
+	float: right;
+	margin-top: 1vh;
+	margin-right: -15.9vw;
+}
+
+}
+
+@media only screen and (max-width: 1366px) {
+.textContainer{
+	margin-left: 1.4vw;
+}
+
+.textContainer p{
+	font-size: 2.5vh;
+}
+
+.generalContainer{
+	margin-top: -8vh;
+	margin-left: -5vw;
+}
+
+.optionsContainer{
+	max-width: 45vw;
+	max-height: 80vh;
+	margin-left: -20px;
+}
+
+.optionsContainer div nav{
+	font-size: 3vh;
+}
+
+.priceContainer{
+	max-height: 80vh;
+	width: 40vw;
+}
+
+.priceContainer h3{
+	margin-bottom: 50px;
+
+}
+
+.priceContainer .infoContainer p{
+	font-size: 3vh;
+}
+
+.priceContainer .infoContainer{
+	margin-top: 50px;
+}
+
+.priceContainer .product{
+	margin-left: 1vw;
+	width: 95%;
+}
+
+.priceContainer .product p{
+	font-size: 3vh;
+	margin-top: -1px;
+	}
+
+	.priceContainer .product div{
+margin: 0px;
+	}
+
+	.priceContainer .infoContainer{
+		margin-top: 0px;
+		margin-left: 2vw;
+	}
+
+	.priceContainer .infoContainer a{
+	float: right;
+	margin-top: 1vh;
+	margin-right: -26.5vw;
+}
+
+}
+
+@media only screen and (max-width: 412px) {
+.textContainer h1{
+font-size: 2vh;
+margin-bottom: -1.2vh;
+}
+
+.textContainer p{
+	font-size: 2vh;
+}
+
+.generalContainer{
+	margin-top: 0vh;
+	padding: 0px;
+}
+
+.generalContainer .priceContainer{
+	margin-top: -1.2vh;
+}
+
+.optionsContainer{
+	max-width: 88vw;
+	max-height: 45vh;
+}
+
+.optionsContainer div nav{
+	font-size: 2vh;
+}
+
+.priceContainer{
+	max-height: 53vh;
+	width: 88vw;
+	margin-top: -20px;
+}
+
+.priceContainer h3{
+	margin-bottom: 50px;
+
+}
+
+.priceContainer .infoContainer p{
+	font-size: 2vh;
+}
+
+.priceContainer .infoContainer{
+	margin-top: 50px;
+}
+
+.priceContainer .product{
+	margin-left: 1vw;
+	height: 7vh;
+	width: 95%;
+}
+
+.priceContainer .product p{
+	font-size: 2vh;
+	margin-top: -1px;
+	}
+
+	.priceContainer .product div{
+margin: 0px;
+	}
+
+	.priceContainer .infoContainer{
+		margin-top: 0px;
+		margin-left: 2vw;
+	}
+
+	.priceContainer .infoContainer a{
+	float: right;
+	margin-top: 0vh;
+	margin-right: -48.2vw;
+}
+
+}
+/*View 1366 x 661*/
